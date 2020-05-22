@@ -21,13 +21,13 @@ from scipy.interpolate import interp1d
 
 
 dirsave = '/user/gennaro/Functional_work/Up_the_ramp_myfork/Simulations_results/'
-testname = 'BKG_HeI_constant'
+testname = 'STEP200_NSAMP13_SNR50'
 
 #Set the measurement properties here
 
-myramps   = [RampTimeSeq('HST/WFC3/IR',15,samp_seq='SPARS100')]
-myfluxes  = [1.5]
-myCRrates = [0.]
+myramps   = [RampTimeSeq('HST/WFC3/IR',13,samp_seq='STEP200')]
+myfluxes  = [2.5]
+myCRrates = [5e-4]
 
 
 tbg  = np.linspace(0,1500,11)

@@ -38,7 +38,7 @@ CRT = 6.
 # In[ ]:
 
 printevery = 100
-n_jobs     = 8
+n_jobs     = 30
 chunksize  = 15 
 
 
